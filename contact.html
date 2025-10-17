@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #e63946;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .contact-section {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #e63946;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact-form button:hover {
+            background-color: #d62839;
+        }
+        footer {
+            background-color: #e63946;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Flower Shop</h1>
+    <nav>
+        
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Contact Us</h2>
+    <div class="contact-section">
+        <h3>We'd love to hear from you!</h3>
+        <p>Please fill out the form below, and we'll get back to you as soon as possible.</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <h4>Other Contact Methods</h4>
+        <p>Email: AFS@flowershop.com</p>
+        <p>Phone: 01738300106</p>
+        <p>Address: 123 Flower St, Bloomtown, FL 12345</p>
+    </div>
+</div>
+
+<footer>
+    <p>2024 Flower Shop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
