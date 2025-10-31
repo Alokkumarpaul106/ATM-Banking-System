@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick a Bouquet - Flower Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #e63946;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .bouquet-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .bouquet {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: 30%;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .bouquet img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .bouquet button {
+            padding: 10px;
+            background-color: #e63946;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .bouquet button:hover {
+            background-color: #d62839;
+        }
+        footer {
+            background-color: #e63946;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Pick Your Bouquet</h1>
+   
+</header>
+
+<div class="container">
+    <h2>Choose Your Perfect Bouquet</h2>
+    <div class="bouquet-section">
+        <div class="bouquet">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyMHBTAq8L7gPg1B0stAC36RTjjxCtQXrrzg&s" alt="Classic Red Roses">
+            <h3>Classic Red Roses</h3>
+            <p>A timeless choice for expressing love and admiration.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="bouquet">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYxUR8JqoAmCeRHTXMewkjDKPUJM9wgBR_LQ&s" alt="Vibrant Mixed Bouquet">
+            <h3>Vibrant Mixed Bouquet</h3>
+            <p>Brighten someone's day with this cheerful assortment.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="bouquet">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGY2BFobbS19ECVF38-alU5xzjHy3IR4yEaw&s" alt="Elegant White Lilies">
+            <h3>Elegant White Lilies</h3>
+            <p>Perfect for any occasion, symbolizing purity and grace.</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Flower Shop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
