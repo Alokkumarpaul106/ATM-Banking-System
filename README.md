@@ -1,1 +1,1 @@
-First Programming whit C
+First Programming with C
